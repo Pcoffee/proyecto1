@@ -1,0 +1,15 @@
+#un caracol en problemas...
+
+H= int(input("altura del pozo : "))
+Hd= int(input("distancia ascendiendo del Caracol : "))
+Hl= int(input("retroceso del Caracol : "))
+D=0
+
+if Hd > Hl:
+    while  D < (H-2) :
+      D= D+ Hd- Hl
+    print("el caracol tardara ", D ,"dias" )
+else :
+    print(" El caracol Se mamo :v ")
+
+print("FIN DEL SUFRIMIENTO")
