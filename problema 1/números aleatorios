@@ -1,0 +1,15 @@
+num= int(input("ingrese los 4 numeros semillas a calcular : "))
+list1=[]
+list2= []
+n=0
+while n <3:
+    list1.append(num)
+    numb = num**2
+    num_string= str(numb)
+    num_transf = int(num_string[:-2][2:])
+    list2.append(num_string)
+    num= num_transf
+    n+=1
+
+print(list1,list2)
+   
